@@ -34,10 +34,11 @@ html {
   font-size: 1.2em;
   font-weight: lighter;
   border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  filter: brightness(0.7);
 }
 
 .nav a:hover {
-  background-color: rgba(17, 16, 16, 0.384);
+ background-color: rgba(17, 16, 16, 0.5);
 }
 
 a,
@@ -68,7 +69,8 @@ strong {
 
 #main,
 #phases,
-#upcoming-films {
+#upcoming-films,
+#contact {
   text-align: center;
 }
 
